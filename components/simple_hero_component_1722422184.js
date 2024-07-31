@@ -25,6 +25,10 @@ Vue.component("simple_hero_component_1722422184", {
                             <a id="hero-button-2" href="https://www.figma.com/community/file/1125744163617429490" class="flex-1  items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Learn More</a>
                         </div>
                     </div>
+
+                    <div id="hello-world-button-container" class="flex mt-4">
+                        <button id="hello-world-button" class="flex-1 px-5 py-3 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-300">Hello World</button>
+                    </div>
                     
                 </div>
                 <div id="hero-image-container" class="hidden lg:mt-0 lg:col-span-5 lg:flex">
