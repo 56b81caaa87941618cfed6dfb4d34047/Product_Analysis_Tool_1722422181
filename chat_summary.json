@@ -1,64 +1,98 @@
 [
     {
-        "role": "makeinfinite",
-        "content": "Can you describe the project a bit more?",
-        "message_id": "project_init",
-        "timestamp": "1722422184",
-        "component_file_name": "",
-        "div_id": ""
-    },
-    {
-        "role": "user",
-        "content": "add a button that says hello world",
-        "timestamp": "31072024103830",
-        "message_id": "guest31072024103830"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Great, adding a button with the text \"Hello World\".",
-        "timestamp": "31072024103831",
-        "message_id": "guest31072024103830"
-    },
-    {
         "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button to be positioned within the app's interface?\", \"option1\": \"In the main navigation menu\", \"option2\": \"On the homepage as a floating action button\"}, {\"question 2\": \"What action should occur when the 'Hello World' button is clicked?\", \"option1\": \"Display a pop-up message with 'Hello World'\", \"option2\": \"Navigate to a new page with 'Hello World' details\"}], \"input_token_count\": 260, \"output_token_count\": 110, \"time_taken\": \"0:00:05.235981\"}",
-        "timestamp": "31072024103837",
-        "message_id": "guest31072024103830"
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a customizable greeting message option for users\", \"checked\": true}, {\"feature\": \"Implement voice command recognition for app interaction\", \"checked\": false}, {\"feature\": \"Include a feature for the button to change its text based on the time of day\", \"checked\": true}, {\"feature\": \"Add animation effects to the button for visual feedback when interacted with\", \"checked\": true}, {\"feature\": \"Incorporate a feature to adjust the button\\u2019s appearance (color, size) based on user preferences\", \"checked\": false}, {\"feature\": \"Offer multilingual support for the button text to cater to a global audience\", \"checked\": false}], \"input_token_count\": 214, \"output_token_count\": 139, \"time_taken\": \"0:00:07.210249\"}",
-        "timestamp": "31072024103839",
-        "message_id": "guest31072024103830"
-    },
-    {
-        "role": "user",
-        "content": "add a button that says hello world",
-        "timestamp": "31072024103952",
-        "message_id": "guest31072024103952"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Sure, working on adding a \"Hello World\" button.",
-        "timestamp": "31072024103954",
-        "message_id": "guest31072024103952"
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like this 'Hello World' button to be positioned on the app interface?\", \"option1\": \"At the top of the screen\", \"option2\": \"At the bottom of the screen\"}, {\"question 2\": \"What function should the 'Hello World' button perform when pressed?\", \"option1\": \"Display a greeting message to the user\", \"option2\": \"Navigate the user to a new page\"}], \"input_token_count\": 309, \"output_token_count\": 101, \"time_taken\": \"0:00:05.608280\"}",
-        "timestamp": "31072024104000",
-        "message_id": "guest31072024103952"
-    },
-    {
-        "role": "user",
-        "content": "add a navbar with navlinks home, about and contact",
-        "timestamp": "31072024104222",
-        "message_id": "guest31072024104222"
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you have a specific design or color scheme in mind for the navbar?\", \"option1\": \"Yes, I will provide the design guidelines.\", \"option2\": \"No, I'm open to suggestions based on the app's current design.\"}, {\"question 2\": \"Should the navbar be fixed at the top of the screen or disappear when scrolling down, then reappear on scroll up?\", \"option1\": \"Fixed at the top of the screen.\", \"option2\": \"Disappear on scroll down, reappear on scroll up.\"}], \"input_token_count\": 264, \"output_token_count\": 122, \"time_taken\": \"0:00:03.789832\"}",
+        "message_id": "guest31072024104222",
+        "timestamp": "31072024104228",
+        "component_file_name": "simple_footer_component_1722422184",
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "chat_acknowledge",
         "content": "Great suggestion! Adding a navbar with navlinks home, about, and contact.",
+        "message_id": "guest31072024104222",
         "timestamp": "31072024104224",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a navbar with navlinks home, about and contact",
+        "message_id": "guest31072024104222",
+        "timestamp": "31072024104222",
+        "component_file_name": "simple_footer_component_1722422184",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like this 'Hello World' button to be positioned on the app interface?\", \"option1\": \"At the top of the screen\", \"option2\": \"At the bottom of the screen\"}, {\"question 2\": \"What function should the 'Hello World' button perform when pressed?\", \"option1\": \"Display a greeting message to the user\", \"option2\": \"Navigate the user to a new page\"}], \"input_token_count\": 309, \"output_token_count\": 101, \"time_taken\": \"0:00:05.608280\"}",
+        "message_id": "guest31072024103952",
+        "timestamp": "31072024104000",
+        "component_file_name": "simple_cta_component_1722422184",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Sure, working on adding a \"Hello World\" button.",
+        "message_id": "guest31072024103952",
+        "timestamp": "31072024103954",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a button that says hello world",
+        "message_id": "guest31072024103952",
+        "timestamp": "31072024103952",
+        "component_file_name": "simple_cta_component_1722422184",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a customizable greeting message option for users\", \"checked\": true}, {\"feature\": \"Implement voice command recognition for app interaction\", \"checked\": false}, {\"feature\": \"Include a feature for the button to change its text based on the time of day\", \"checked\": true}, {\"feature\": \"Add animation effects to the button for visual feedback when interacted with\", \"checked\": true}, {\"feature\": \"Incorporate a feature to adjust the button\\u2019s appearance (color, size) based on user preferences\", \"checked\": false}, {\"feature\": \"Offer multilingual support for the button text to cater to a global audience\", \"checked\": false}], \"input_token_count\": 214, \"output_token_count\": 139, \"time_taken\": \"0:00:07.210249\"}",
+        "message_id": "guest31072024103830",
+        "timestamp": "31072024103839",
+        "component_file_name": "simple_hero_component_1722422184",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button to be positioned within the app's interface?\", \"option1\": \"In the main navigation menu\", \"option2\": \"On the homepage as a floating action button\"}, {\"question 2\": \"What action should occur when the 'Hello World' button is clicked?\", \"option1\": \"Display a pop-up message with 'Hello World'\", \"option2\": \"Navigate to a new page with 'Hello World' details\"}], \"input_token_count\": 260, \"output_token_count\": 110, \"time_taken\": \"0:00:05.235981\"}",
+        "message_id": "guest31072024103830",
+        "timestamp": "31072024103837",
+        "component_file_name": "simple_hero_component_1722422184",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Great, adding a button with the text \"Hello World\".",
+        "message_id": "guest31072024103830",
+        "timestamp": "31072024103831",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a button that says hello world",
+        "message_id": "guest31072024103830",
+        "timestamp": "31072024103830",
+        "component_file_name": "simple_hero_component_1722422184",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "summary",
+        "content": "Can you describe the project a bit more?",
+        "timestamp": "31072024104228",
         "message_id": "guest31072024104222"
     }
 ]
