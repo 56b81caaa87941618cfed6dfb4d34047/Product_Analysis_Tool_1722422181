@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like this 'Hello World' button to be positioned on the app interface?\", \"option1\": \"At the top of the screen\", \"option2\": \"At the bottom of the screen\"}, {\"question 2\": \"What function should the 'Hello World' button perform when pressed?\", \"option1\": \"Display a greeting message to the user\", \"option2\": \"Navigate the user to a new page\"}], \"input_token_count\": 309, \"output_token_count\": 101, \"time_taken\": \"0:00:05.608280\"}",
+        "message_id": "guest31072024103952",
+        "timestamp": "31072024104000",
+        "component_file_name": "simple_cta_component_1722422184",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, working on adding a \"Hello World\" button.",
         "message_id": "guest31072024103952",
